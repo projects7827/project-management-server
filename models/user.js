@@ -13,7 +13,7 @@ let schema = new mongoose.Schema({
     "full_name": String,
     "user_type": String,
     "post": String,
-    "created_on": Date
+    "created_on": String
 })
 
 let models = mongoose.model("users", schema)
